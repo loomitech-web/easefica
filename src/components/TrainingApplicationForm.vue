@@ -79,6 +79,12 @@
                       required
                     ></v-text-field>
 
+                    <v-text-field
+                      v-model="form.salesAgent"
+                      label="Sales Agent (optional)"
+                    ></v-text-field>
+
+
                   </v-form>
 
                   </v-card-text>
@@ -159,6 +165,7 @@
           individual : false,
           learners:null,
           cpdLearners:null,
+          salesAgent:null,
           consents : {
             contactByEmail : false,
             contactByPhone : false

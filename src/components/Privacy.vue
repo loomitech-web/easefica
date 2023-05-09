@@ -121,7 +121,7 @@
 
     <h3>  Accessing Your Personal Information</h3>
 
-      <p>  You may contact us by email, at the following email address: <a href="mailto:support@easefica.co.za">support@easefica.co.za </a>, should you wish to:</p>
+      <p>  You may contact us by email, at the following email address: <a href="mailto:assist@easefica.co.za">assist@easefica.co.za </a>, should you wish to:</p>
 <ul>
       <li>	access the details of personal information which we hold about you;
         </li>

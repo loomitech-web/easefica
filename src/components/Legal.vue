@@ -16,9 +16,9 @@
             :md=12
             :sm=12
             :xs=12>
-        <v-row justify="center" class="space-verticaly">
+        <!--v-row justify="center" class="space-verticaly">
                 <v-img style="max-width:312px" src="/img/news/covid-f.png"></v-img>
-        </v-row> 
+        </v-row--> 
 
         <v-row justify="center" class="space-verticaly">
                 <h4 class="text-align-center">eas-e fica (Pty) Ltd. © Copyright 2017. All Rights Reserved.</h4>

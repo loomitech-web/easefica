@@ -1,5 +1,8 @@
 <template>
   <v-container fluid >
+    <v-row style="height:128px"> 
+
+    </v-row>  
     <v-row >
       <v-col :xl=2         
             :lg=2
@@ -66,6 +69,10 @@
       </v-col> 
 
     </v-row>
+
+    <v-row style="height:64px"> 
+
+    </v-row>  
   </v-container>
 </template>
 

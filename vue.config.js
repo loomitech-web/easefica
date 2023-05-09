@@ -4,6 +4,6 @@ module.exports = {
   ],
   configureWebpack: { output: { filename: '[name].[hash].bundle.js' } },
   pwa :{
-    assetsVersion : "2.4"
+    assetsVersion : "2.8"
   } 
 }

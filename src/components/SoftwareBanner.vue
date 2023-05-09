@@ -53,7 +53,7 @@
             </v-row>   
 
             <v-row justify="center">
-                <!--v-btn rounded color="accent" @click="learnMore = true" dark>Learn More</v-btn-->   
+                <v-btn rounded color="accent" @click="learnMore = true" dark>Learn More</v-btn>   
             </v-row>   
 
         </v-col> 
@@ -69,13 +69,9 @@
         </v-col>     
     </v-row>
     
-    <v-dialog v-model="learnMore" scrollable max-width="80%" max-height="640px">
+    <v-dialog v-model="learnMore"  max-width="70%" >
       <v-card>
-        <iframe width="auto" height="640px" src="https://www.youtube.com/embed/videoseries?list=PLllZdEJ8v8V0g2bITH4Q4uZxWrPQsHlXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <v-card-actions>
-            <v-spacer></v-spacer>
-          <v-btn color="primary darken-1" text @click="learnMore = false">Close</v-btn>
-        </v-card-actions>
+        <div itemscope itemtype="https://schema.org/VideoObject"><meta itemprop="uploadDate" content="Thu Oct 15 2020 13:33:00 GMT+0200 (South Africa Standard Time)"/><meta itemprop="name" content="Learn More"/><meta itemprop="duration" content="PT32.598S" /><meta itemprop="thumbnailUrl" content="https://content.jwplatform.com/thumbs/2nsQYbLo-1920.jpg"/><meta itemprop="contentUrl" content="https://content.jwplatform.com/videos/2nsQYbLo-TAqnqhxs.mp4"/><div style="position:relative; overflow:hidden; padding-bottom:56.25%"> <iframe src="https://cdn.jwplayer.com/players/2nsQYbLo-nBGDpa1v.html" width="100%" height="100%" frameborder="0" scrolling="auto" title="Learn More" style="position:absolute;" allowfullscreen></iframe> </div></div>
       </v-card>
     </v-dialog>
   </v-container>
